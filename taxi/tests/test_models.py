@@ -34,8 +34,8 @@ class ManufacturerModelTest(TestCase):
         )
         self.assertEqual(
             str(manufacturer),
-            f"{manufacturer.name} "
-            f"{manufacturer.country}")
+            f"{manufacturer.name} {manufacturer.country}"
+        )
 
 
 class DriverModelTests(TestCase):
